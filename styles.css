@@ -10,5 +10,209 @@
   display: flex;
   height: 100px;
   width: 100%;
+}
+
+.head1 {
+  font-size: 14px;
+  color: rgb(108, 106, 106);
+  padding-left: 43px;
+}
+
+.head2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.head3 {
+  font-size: 15px;
+  color: rgb(108, 106, 106);
+}
+
+.head4 {
+  font-size: 15px;
+  color: rgb(108, 106, 106);
+}
+
+#icon1 {
+  font-size: 30px;
+  color: rgba(217, 74, 74, 0.97);
+}
+
+#icon2 {
+  font-size: 30px;
+  color: rgba(217, 74, 74, 0.97);
+}
+
+#icon3 {
+  font-size: 30px;
+  color: rgba(217, 74, 74, 0.97);
+}
+
+#navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 15px;
+  list-style: none;
+}
+
+#navbar {
+  position: static;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(246, 104, 53);
+}
+
+#navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#body {
+  background-image: url(/heavy-machinery-used-construction-industry-engineering_23-2151307758.avif);
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  background-size: 100%;
+}
+
+.head5 {
+  color: white;
+  font-size: 80px;
+  margin-left: 30%;
+  padding-top: 10%;
+}
+
+.head6 {
+  color: white;
+  font-size: 80px;
+  margin-left: 25%;
+}
+
+.head7 {
+  padding-left: 30%;
+  color: white;
+  padding-top: 25px;
+}
+
+.btn {
+  height: 40px;
+  width: 130px;
+  border-radius: 25%;
+  margin-left: 45%;
+  margin-top: 40px;
+  background-color: rgb(246, 104, 53);
+  color: white;
+  border-color: white;
+}
+
+#main {
+  height: 550px;
+  width: 100%;
   border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#photo1 {
+  height: 400px;
+  padding-top: 100px;
+}
+
+#sidebar {
+  padding-top: 100px;
+}
+
+.btn2 {
+  height: 40px;
+  width: 130px;
+  border-radius: 25%;
+  background-color: rgb(246, 104, 53);
+  color: white;
+  border-color: white;
+}
+
+#photo1:hover {
+  scale: 1.1;
+  transition-duration: 2s;
+}
+
+.a1 {
+  color: rgb(246, 104, 53);
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.a2 {
+  font-size: 40px;
+}
+
+#main2 {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  background-color: rgb(240, 237, 237);
+}
+
+.grid1 {
+  margin-top: 20%;
+  height: 350px;
+  width: 300px;
+  border: 1px solid rgb(232, 230, 230);
+  gap: 20px;
+  text-align: center;
+}
+
+.photo2 {
+  width: 300px;
+}
+
+.b1 {
+  color: black;
+}
+
+#main3 {
+  height: 450px;
+  width: 100%;
+  background: url(./glasses-lie-laptop-reflecting-light-from-screen-dark_169016-53056.avif);
+  background-size: cover;
+}
+
+#photo3 {
+  border-radius: 50%;
+  height: 80px;
+  margin-top: 100px;
+  margin-left: 120px;
+}
+
+.b2 {
+  padding-top: 30px;
+  color: white;
+  padding-left: 30px;
+}
+
+.b3 {
+  color: white;
+  padding-left: 30px;
+}
+
+.b4 {
+  padding-top: 30px;
+  color: white;
+  padding-left: 30px;
+}
+
+#main4 {
+  background-color: rgb(204, 203, 203);
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.c1 {
+  margin-top: 80px;
 }/*# sourceMappingURL=styles.css.map */
