@@ -8,6 +8,7 @@
   padding-top: 20px;
   justify-content: space-evenly;
   display: flex;
+  flex-wrap: wrap;
   height: 100px;
   width: 100%;
 }
@@ -57,10 +58,11 @@
 }
 
 #navbar {
-  position: static;
+  position: sticky;
   height: 50px;
   width: 100%;
   background-color: rgb(246, 104, 53);
+  top: 0%;
 }
 
 #navbar ul li a {
@@ -215,4 +217,126 @@
 
 .c1 {
   margin-top: 80px;
+}
+
+#about {
+  height: 300px;
+  width: 100%;
+  background-image: url(./huge-mining-machine-coal-mine-generative-ai_73899-17059.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.d1 {
+  color: white;
+  padding-left: 10%;
+  padding-top: 80px;
+  font-size: 50px;
+}
+
+.d2 {
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  padding-left: 10%;
+}
+
+#abt1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 140px;
+  justify-content: center;
+}
+
+#photo11 {
+  padding-left: 30px;
+  height: 422px;
+  width: 400px;
+}
+
+.head10 {
+  font-size: 20px;
+}
+
+.head11 {
+  font-weight: bolder;
+}
+
+.head12 {
+  font-size: 20px;
+}
+
+.btn10 {
+  height: 40px;
+  width: 140px;
+  background-color: rgb(246, 104, 53);
+  color: white;
+  border: 1px solid white;
+}
+
+#desc {
+  margin-left: 60px;
+  width: 500px;
+}
+
+#abt2 {
+  background-color: rgb(244, 243, 243);
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 200px;
+  padding-top: 70px;
+}
+
+#red {
+  color: orangered;
+}
+
+#abt3 {
+  height: 600px;
+  width: 100%;
+}
+
+#teammates {
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.t1 {
+  height: 200px;
+  width: 190px;
+}
+
+.heading {
+  padding-left: 45%;
+  padding-top: 80px;
+}
+
+#team1 {
+  height: 300px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+#team2 {
+  height: 300px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+#team3 {
+  height: 300px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+#team4 {
+  height: 300px;
+  width: 200px;
+  border: 1px solid black;
 }/*# sourceMappingURL=styles.css.map */
