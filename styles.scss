@@ -334,3 +334,158 @@ font-size: 20px;
     width: 200px;
     border: 1px solid black;
 }
+#abt4{
+    height: 150px;
+    width: 100%;
+}
+.mark img{
+    padding-left: 70px;
+    padding-top: 50px;
+}
+#head14{
+    font-size: 40px;
+    color:  rgb(246, 104, 53); 
+}
+#head15{
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#head16{
+    font-size: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#head17{
+    font-size: 25px;
+    padding-left: 35px;
+    padding-top: 10px;
+}
+#head18{
+    font-size: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.para1{
+    padding-left: 35px;
+}
+
+
+
+//service scss starts from here //
+
+#serv1{
+    height: 600px;
+    width: 100%;
+    margin-top: 100px;
+}
+#service1{
+    display: flex;
+    flex-wrap:wrap ;
+    gap: 20px;
+    justify-content: center;
+}
+#service2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.box10{
+    height: 400px;
+   
+}
+.photoA{
+    height: 200px;
+    width: 300px;
+}
+.black{
+    color: black;
+}
+#mainproject{
+    height: 600px;
+    width: 100%;
+    margin-top: 100px;
+}
+#prj1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+#prj2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+#prj3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 30px;
+    padding-left: 137px;
+    
+}
+.pho{
+    height: 150px;
+    width: 300px;
+}
+.pro{
+    border: px solid white;
+    height: 300px;
+    width: 300px;
+}
+.pro:hover{
+    scale: 1.1;
+    transition-duration: 2s;
+}
+
+//from here blog scss starts//
+
+
+#mainblog{
+    height: 800px;
+    width: 100%;
+}
+.searchsection{
+    margin-left: 200px;
+    margin-top: 100px;
+    height: 100px;
+    width: 200px;
+    background-color: rgb(216, 213, 213);
+    text-align: center;
+}
+.blogp{
+    
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.blogp:hover{
+    color: rgb(246, 104, 53); 
+}
+.cate{
+    margin-left: 200px;
+    margin-top: 100px;
+    height: 300px;
+    width: 200px;
+    background-color: rgb(216, 213, 213);
+    text-align: center;
+}
+
+.tags{
+
+    margin-left: 200px;
+    margin-top: 100px;
+    height: 160px;
+    width: 200px;
+    background-color: rgb(216, 213, 213);
+    text-align: center;
+}
+.btntags:hover{
+    background-color: rgb(246, 104, 53);
+    color: white;
+    
+}
