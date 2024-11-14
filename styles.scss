@@ -54,6 +54,7 @@ font-size: 30px;
 
 #navbar ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
     padding-top: 15px;
@@ -67,6 +68,9 @@ font-size: 30px;
     background-color: rgb(246, 104, 53);
     top: 0%;
     
+}
+#navbar a:hover{
+    font-weight: bolder;
 }
 #navbar ul li a{
     color: white;
@@ -109,6 +113,9 @@ background-size: 100%;
     color: white;
     border-color: white;
 }
+.btn:hover{
+    background-color: black;
+}
 //here main section starts//
 
 #main{
@@ -135,6 +142,9 @@ background-size: 100%;
     background-color: rgb(246, 104, 53);
     color: white;
     border-color: white;
+}
+.btn2:hover{
+    background-color: black;
 }
 #photo1:hover{
     scale: 1.1;
@@ -170,6 +180,10 @@ font-size: 20px;
 }
 .photo2{
     width:300px ;
+}
+.photo2:hover{
+scale: 1.1;
+transition: 2s;
 }
 .b1{
     color: black;
@@ -276,6 +290,9 @@ font-size: 20px;
     color: white;
     border: 1px solid white;
 }
+.btn10:hover{
+background-color: black;
+}
 #desc{
     margin-left: 60px;
     width: 500px;
@@ -310,6 +327,7 @@ font-size: 20px;
     height:200px;
     width: 190px;
 }
+
 .heading{
     padding-left: 45%;
     padding-top: 80px;
@@ -488,4 +506,65 @@ font-size: 20px;
     background-color: rgb(246, 104, 53);
     color: white;
     
+}
+#mainblog{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.blog1{
+    margin-left: 100px;
+
+    margin-top: 100px;
+    height: 450px;
+    width: 300px;
+}
+.blogimg{
+    height: 200 px;
+    width: 300px;
+}
+.blog2{
+    margin-left: 100px;
+    margin-top: 30px;
+    height: 450px;
+    width: 300px;
+}
+.bloga{
+    color: black;
+}
+.blogimg:hover{
+scale: 1.1;
+transition-duration: 2s;
+}
+
+//from here contact page scss has startded
+
+#cont{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    gap: 100px;
+}
+.input1{
+    height: 40px;
+    width: 300px;
+}
+.input2{
+    height: 100px;
+    width: 300px;
+    text-align: center;
+}
+.input3{
+    height: 40px;
+    width: 300px;
+}
+.btna{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(246, 104, 53);
+    color: white;
+}
+.btna:hover{
+    background-color: black;
 }
